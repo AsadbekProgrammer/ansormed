@@ -51,6 +51,10 @@ body {
   color: #222;
 }
 
+.site-logo-site-footer {
+  color:#fff;
+}
+
 .site-logo:hover {
   color:#de2e54
 }
@@ -59,8 +63,25 @@ body {
   opacity: 0.6;
 }
 
+.site-logo-site-footer:active {
+  color:#fff;
+}
+
+.sitenav-site-footer .sitenav-link{
+  color:#fff;
+}
+
+.sitenav-site-footer .sitenav-link:hover{
+  color:#de2e54;
+}
+
+.sitenav-site-footer .sitenav-link:active{
+  color:#fff;
+}
+
 .site-logo-img {
   margin-right: 16px;
+  border-radius: 50%;
 }
 
 /* SITENAV */
@@ -123,4 +144,19 @@ body {
   color:#fff;
   border-color:#de2e54;
   opacity: 0.6;
+}
+
+/* SITE-FOOTER */
+
+.site-footer {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-color: #222;
+  color:#fff;
+}
+
+.site-footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
